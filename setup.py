@@ -36,7 +36,8 @@ setup(name=__pkg_name__.replace("_", "-"),
       packages=find_packages(),
       entry_points={'console_scripts': [
           "multi_to_single_fast5={}.conversion_tools.multi_to_single_fast5:main".format(__pkg_name__),
-          "single_to_multi_fast5={}.conversion_tools.single_to_multi_fast5:main".format(__pkg_name__)
+          "single_to_multi_fast5={}.conversion_tools.single_to_multi_fast5:main".format(__pkg_name__),
+          "multi_to_multi_fast5={}.conversion_tools.multi_to_multi_fast5:main".format(__pkg_name__)
       ]},
       classifiers=[
           'Development Status :: 5 - Production/Stable',
